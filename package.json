@@ -1,0 +1,17 @@
+{
+  "name": "unitech-dept-qa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "优耐特施部门知识问答 - Netlify Functions + Blobs 正式版",
+  "scripts": {
+    "test": "node scripts/netlify-test.mjs",
+    "check": "node --check public/assets/app.js && node --check netlify/lib/core.mjs && node --check netlify/lib/store.mjs && node --check netlify/lib/handler.mjs && node --check netlify/functions/api.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.9"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

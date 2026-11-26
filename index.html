@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d2530">
+  <meta name="description" content="上海优耐特施压缩机有限公司部门知识问答平台，汇集日常业务中的通用问题与解决方案。">
+  <title>优耐特施 · 部门知识问答</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m16.5 16.5 4.5 4.5"></path></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"></path></symbol>
+    <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"></path></symbol>
+    <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></symbol>
+    <symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"></path></symbol>
+    <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"></path></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"></path><circle cx="12" cy="12" r="2.8"></circle></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-8.5 8.3 9.6 9.6 0 0 1-3.2-.5L4 21l1.6-4.4A8.2 8.2 0 0 1 3.5 11.5 8.4 8.4 0 0 1 12 3.2a8.4 8.4 0 0 1 9 8.3Z"></path></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"></path></symbol>
+    <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="m8 12 2.6 2.6L16.5 9"></path></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5.3l3.2 1.9"></path></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"></path><circle cx="7.6" cy="7.6" r="1.2"></circle></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"></path></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"></circle><path d="M2.5 20c0-3.4 2.9-5.5 6.5-5.5s6.5 2.1 6.5 5.5M16 5.2a3.5 3.5 0 0 1 0 6.6M17.5 14.8c2.4.6 4 2.4 4 5.2"></path></symbol>
+    <symbol id="i-cube" viewBox="0 0 24 24"><path d="m21 16-9 5-9-5V8l9-5 9 5v8Z"></path><path d="m3.3 7.3 8.7 4.8 8.7-4.8M12 22V12"></path></symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.3 5.3L3 18l3 3 6.4-6.4a4 4 0 0 0 5.3-5.3l-2.4 2.4-2.1-2.1 2.5-2.3Z"></path></symbol>
+    <symbol id="i-factory" viewBox="0 0 24 24"><path d="M3 21V9l6 4V9l6 4V5h6v16H3Z"></path><path d="M7 21v-3M12 21v-3M17 21v-3"></path></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 3 8 3v6c0 5-3.4 8.2-8 9-4.6-.8-8-4-8-9V6l8-3Z"></path><path d="m8.7 12 2.1 2.1 4.5-4.5"></path></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"></path></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M3 6h11v10H3zM14 10h4l3 3v3h-7"></path><circle cx="7" cy="18" r="2"></circle><circle cx="18" cy="18" r="2"></circle></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"></rect><path d="M8 20h8M12 16v4"></path></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3M12 15v2"></path></symbol>
+    <symbol id="i-logout" viewBox="0 0 24 24"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"></path></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 21h16"></path></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6 7l1 14h10l1-14M10 11v6M14 11v6"></path></symbol>
+    <symbol id="i-edit" viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5Z"></path></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7 0l2-2a5 5 0 0 0-7-7l-1 1M14 11a5 5 0 0 0-7 0l-2 2a5 5 0 0 0 7 7l1-1"></path></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="m12 3 1.7 4.3L18 9l-4.3 1.7L12 15l-1.7-4.3L6 9l4.3-1.7L12 3ZM19 15l1 2.3 2.3 1-2.3 1L19 22l-1-2.7-2.3-1 2.3-1L19 15Z"></path></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 7.5v5.5M12 16.5v.1"></path></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5.5M12 7.5v.1"></path></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"></path></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><path d="M3 4h18l-7 8v6l-4 2v-8L3 4Z"></path></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V10Z"></path></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7"></path></symbol>
+  </svg>
+
+  <div class="site-shell">
+    <header class="topbar" id="topbar">
+      <div class="container topbar-inner">
+        <a class="brand" href="#/" aria-label="优耐特施部门知识问答首页">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40">
+              <rect width="40" height="40" rx="12" fill="#0d2530"></rect>
+              <path d="M10.5 25.5c2.6-8.4 6.4-12.6 11.2-12.6 3.4 0 5.8 2.2 5.8 5.3 0 3.9-3.3 6.6-8.6 8.1" fill="none" stroke="#f47a42" stroke-width="2.7" stroke-linecap="round"></path>
+              <circle cx="28.8" cy="27.6" r="2.3" fill="#ffffff"></circle>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <strong>优耐特施</strong>
+            <small>部门知识问答</small>
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="主导航">
+          <a href="#/" data-nav="home">问答库</a>
+          <a href="#/browse" data-nav="browse">全部问题</a>
+          <a href="#/about" data-nav="about">使用说明</a>
+        </nav>
+
+        <div class="topbar-actions">
+          <form class="header-search" id="header-search" role="search">
+            <svg class="icon" aria-hidden="true"><use href="#i-search"></use></svg>
+            <input type="search" name="q" placeholder="搜索问题…" aria-label="搜索问题" autocomplete="off">
+            <kbd>/</kbd>
+          </form>
+          <a class="btn btn-primary btn-sm ask-btn" href="#/ask" data-ask-link>
+            <svg class="icon" aria-hidden="true"><use href="#i-plus"></use></svg>
+            <span>我要提问</span>
+          </a>
+          <a class="icon-btn admin-link" href="#/admin" data-admin-link title="管理后台" aria-label="管理后台">
+            <svg class="icon" aria-hidden="true"><use href="#i-lock"></use></svg>
+          </a>
+          <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-label="打开导航菜单" aria-expanded="false" aria-controls="mobile-menu">
+            <svg class="icon" aria-hidden="true"><use href="#i-menu"></use></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu" hidden>
+        <nav aria-label="移动端导航">
+          <a href="#/" data-mobile-nav="home"><svg class="icon" aria-hidden="true"><use href="#i-home"></use></svg>问答库</a>
+          <a href="#/browse" data-mobile-nav="browse"><svg class="icon" aria-hidden="true"><use href="#i-book"></use></svg>全部问题</a>
+          <a href="#/ask" data-mobile-nav="ask"><svg class="icon" aria-hidden="true"><use href="#i-plus"></use></svg>我要提问</a>
+          <a href="#/about" data-mobile-nav="about"><svg class="icon" aria-hidden="true"><use href="#i-info"></use></svg>使用说明</a>
+          <a href="#/admin" data-mobile-nav="admin"><svg class="icon" aria-hidden="true"><use href="#i-lock"></use></svg>管理后台</a>
+        </nav>
+        <form class="mobile-search" id="mobile-search" role="search">
+          <svg class="icon" aria-hidden="true"><use href="#i-search"></use></svg>
+          <input type="search" name="q" placeholder="搜索问题、关键词或标签" aria-label="搜索问题" autocomplete="off">
+          <button class="btn btn-primary btn-sm" type="submit">搜索</button>
+        </form>
+      </div>
+    </header>
+
+    <main id="app" tabindex="-1">
+      <div class="boot-screen">
+        <span class="brand-mark boot-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40">
+            <rect width="40" height="40" rx="12" fill="#0d2530"></rect>
+            <path d="M10.5 25.5c2.6-8.4 6.4-12.6 11.2-12.6 3.4 0 5.8 2.2 5.8 5.3 0 3.9-3.3 6.6-8.6 8.1" fill="none" stroke="#f47a42" stroke-width="2.7" stroke-linecap="round"></path>
+            <circle cx="28.8" cy="27.6" r="2.3" fill="#ffffff"></circle>
+          </svg>
+        </span>
+        <div class="boot-text">正在整理知识库…</div>
+        <div class="boot-bar"><span></span></div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="brand footer-logo" href="#/">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 40 40">
+                <rect width="40" height="40" rx="12" fill="#0d2530"></rect>
+                <path d="M10.5 25.5c2.6-8.4 6.4-12.6 11.2-12.6 3.4 0 5.8 2.2 5.8 5.3 0 3.9-3.3 6.6-8.6 8.1" fill="none" stroke="#f47a42" stroke-width="2.7" stroke-linecap="round"></path>
+                <circle cx="28.8" cy="27.6" r="2.3" fill="#ffffff"></circle>
+              </svg>
+            </span>
+            <span class="brand-text"><strong>优耐特施</strong><small>部门知识问答</small></span>
+          </a>
+          <p>把日常经验沉淀成可复用的答案，<br>让知识在团队里流动起来。</p>
+        </div>
+        <div class="footer-links">
+          <h3>快速入口</h3>
+          <a href="#/">问答首页</a>
+          <a href="#/browse">浏览全部问题</a>
+          <a href="#/ask">发起提问</a>
+          <a href="#/about">使用说明</a>
+        </div>
+        <div class="footer-links">
+          <h3>关于内容</h3>
+          <p>面向同事与业务伙伴的公开知识分享。请勿上传涉密资料、客户隐私或未经授权的技术文件。</p>
+          <a href="#/admin">管理员入口 <svg class="icon icon-sm" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg></a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="footer-year">2026</span> 上海优耐特施压缩机有限公司</span>
+        <span class="footer-badge"><span class="status-dot"></span>公开知识分享平台</span>
+      </div>
+    </footer>
+  </div>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="false"></div>
+  <div id="modal-root"></div>
+  <noscript>
+    <div class="noscript-note">此问答库需要启用 JavaScript 才能使用，请在浏览器设置中启用后刷新页面。</div>
+  </noscript>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

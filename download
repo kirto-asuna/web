@@ -1,0 +1,6 @@
+node_modules/
+.netlify/
+.tmp-netlify-test/
+.env
+.env.*
+!.env.example
